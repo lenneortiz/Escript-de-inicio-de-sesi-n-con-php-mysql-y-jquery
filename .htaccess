@@ -1,0 +1,21 @@
+RewriteEngine On
+php_value upload_max_filesize 10M
+php_value memory_limit 500M
+php_value max_execution_time 6000000
+#rutas
+#Prevenir la navegación en un directorio
+Options All -Indexes
+
+
+
+
+Options -Indexes
+#ErrorDocument 403 "Error 403. Contactar al administrador."
+ErrorDocument 400 "Error 400. Contactar al administrador."
+ErrorDocument 401 "Error 401. Contactar al administrador."
+ErrorDocument 404 http://localhost/sistem-login/404.html
+ #RewriteRule ^home$ home.php [L]
+
+
+
+

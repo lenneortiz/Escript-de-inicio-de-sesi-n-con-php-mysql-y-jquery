@@ -1,0 +1,152 @@
+body{
+    /*background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');*/
+    padding:30px;
+    background: url('../images/s3.png') ;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+/*--------------------REGISTRO--------------------*/
+
+.modal-content{
+    background-color:rgba(255,255,255,.8);
+    padding: 20px
+}
+#register-user{
+    min-width: 250px;
+    height: auto;
+    padding: 14px 14px 0;
+    overflow:hidden;
+   ;
+    z-index: 1000
+
+}
+#register-user input{
+
+    padding: 10px
+}
+#register-user .help-block{
+    font-size:12px    
+}
+#register-user .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+
+}
+
+#register-user .social-buttons{
+    margin:12px 0    
+}
+
+
+#register-user .social-buttons a{
+    width: 49%;
+}
+
+
+#register-user .form-group {
+    margin-bottom: 10px;
+}
+.resp-login{
+    width: 100%;
+    max-height: 150px;
+    margin-bottom: 5px;
+    color: #2B4450;
+    line-height: 2em;
+    color:#a94442;
+    background-color:#f2dede;
+    border-color:#ebccd1;
+    margin-bottom:20px;
+    border:1px solid transparent;
+    border-radius:4px
+    /*text-transform: uppercase;*/
+    
+}
+
+.resp__create__user{
+    width: 100%;
+    max-height: 150px;
+    margin-bottom: 5px;
+    color: #2B4450;
+    line-height: 2em;
+    background: #FF8AB4;
+    opacity: 0.7;
+    box-shadow: 0 10px 4px 0px;
+    /*text-transform: uppercase;*/
+    
+}
+
+h4{
+    text-align: center;
+    font-size: 16px;
+    font-family: arial,helvetica,sans-serif
+
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+/*--------------------ALERTA*/
+
+.alert-danger{
+    padding: 0px;
+}
+
+.alert-info{
+    display: none;
+}
+
